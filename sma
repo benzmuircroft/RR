@@ -9,16 +9,16 @@
     var sec=[];//section
     
     var i=[arr.length,0];
-		while(i[0]--){
-			sec=arr.slice(i[1]-of,i[1]);
-			a=of;
-			avg=0.0;
-			while(a--){
-				avg+=sec[a];
-				}
-			sma.unshift(avg/of);
-			i[1]+=1;
+	while(i[0]--){
+		sec=arr.slice(i[1]-of,i[1]);
+		a=of;
+		avg=0.0;
+		while(a--){
+			avg+=sec[a];
 			}
-			
-			
-			//sma is simple moving average
+		sma.unshift(avg/of);
+		i[1]+=1;
+		}
+		
+		
+		//sma is simple moving average
