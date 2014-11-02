@@ -1,4 +1,4 @@
-    var arr=[];//array
+    var arr=[];//array, last value is newest data
     
     var sma=[];
     
@@ -19,6 +19,7 @@
 		sma.unshift(avg/of);
 		i[1]+=1;
 		}
-		
+	i=sma[0];
+	while(of--){sma.unshift(i);}//fit length to original with oldest value
 		
 		//sma is simple moving average
