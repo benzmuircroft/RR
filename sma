@@ -8,7 +8,7 @@
     
     var sec=[];//section
     
-    var i=[arr.length,0];
+    var i=[arr.length-(of-1),0];
 	while(i[0]--){
 		sec=arr.slice(i[1]-of,i[1]);
 		a=of;
